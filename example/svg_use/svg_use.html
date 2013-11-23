@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>svgUse example showing usage of oops component library</title>
+    <!-- custom <forehead svgUse> -->
+    <!-- end <forehead svgUse> -->
+    <link rel="import" href="../packages/oops/components/oops_svg.html">
+    <link rel="import" href="../packages/oops/components/oops_font_awesome.html">
+    <link rel="stylesheet" href="../packages/oops/components/oops.css">
+
+    <script type="application/dart">export 'package:polymer/init.dart';</script>
+    <script src="packages/browser/dart.js"></script>
+
+    <style>
+      /* custom <style svgUse> */
+      /* end <style svgUse> */
+    </style>
+
+    <!-- custom <chin svgUse> -->
+
+    <h1>This works (bar successfully duplicated)</h1>
+    <svg width="140000" height="170" style="border: double">
+      <title>Forecast</title>
+      <text x="0" y="170">1880</text>
+      <text x="100" y="170">1890</text>
+      <text x="200" y="170">1900</text>
+      <text x="300" y="170">1910</text>
+      <g id="leadbar">
+        <rect
+           style="fill:#916f6f;fill-opacity:0.87391304;stroke:#130e14;stroke-opacity:1"
+           id="lbar"
+           width="5.0507627"
+           height="47.982246"
+           x="0"
+           y="0"
+           ry="2.5253813"
+           inkscape:label="#rect4509" />
+      </g>
+      <use xlink:href="#leadbar" x="50" y="50"/>
+    </svg>
+
+    <h1>This does not work (only 1 bar showing)</h1>
+    <oops-svg><oops-svg>
+
+    <!-- end <chin svgUse> -->
+  </head>
+  <body>
+  <!-- custom <body svgUse> -->
+  <!-- end <body svgUse> -->
+  </body>
+</html>

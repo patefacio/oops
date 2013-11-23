@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<!-- custom <oopsSvg head> -->
+<!-- end <oopsSvg head> -->
+
+<polymer-element name="oops-svg"  apply-author-styles>
+  <template>
+    <style>
+    /* custom <oopsSvg style> */
+    /* end <oopsSvg style> */
+    </style>
+
+    <!-- custom <oopsSvg template> -->
+
+    <svg width="140000" height="170" style="border: double">
+      <title>Forecast</title>
+      <text x="0" y="170">1880</text>
+      <text x="100" y="170">1890</text>
+      <text x="200" y="170">1900</text>
+      <text x="300" y="170">1910</text>
+      <g id="leadbar">
+        <rect
+           style="fill:#916f6f;fill-opacity:0.87391304;stroke:#130e14;stroke-opacity:1"
+           id="lbar"
+           width="5.0507627"
+           height="47.982246"
+           x="0"
+           y="0"
+           ry="2.5253813"
+           inkscape:label="#rect4509" />
+      </g>
+      <use xlink:href="#leadbar" x="50" y="50"/>
+    </svg>
+
+    <!-- end <oopsSvg template> -->
+
+  </template>
+  <script type="application/dart" src="oops_svg.dart"></script>
+</polymer-element>

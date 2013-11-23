@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>fontAwesome example showing usage of oops component library</title>
+    <!-- custom <forehead fontAwesome> -->
+    <link rel="stylesheet" id="font-awesome-4-css" href="http://astronautweb.co/wp-content/themes/astro2012/css/font-awesome-4.0.3.css?ver=4.0.3" type="text/css" media="all">
+    <!-- end <forehead fontAwesome> -->
+    <link rel="import" href="../packages/oops/components/oops_svg.html">
+    <link rel="import" href="../packages/oops/components/oops_font_awesome.html">
+    <link rel="stylesheet" href="../packages/oops/components/oops.css">
+
+    <script type="application/dart">export 'package:polymer/init.dart';</script>
+    <script src="packages/browser/dart.js"></script>
+
+    <style>
+      /* custom <style fontAwesome> */
+      /* end <style fontAwesome> */
+    </style>
+
+    <!-- custom <chin fontAwesome> -->
+    <!-- end <chin fontAwesome> -->
+  </head>
+  <body>
+  <!-- custom <body fontAwesome> -->
+
+  <h1>This works (image displayed)</h1>
+  <div>
+    <p>Basic div containing font-awesome</p>
+    <p><i class="fa fa-camera-retro fa-lg"></i> Cool camera</p>
+  </div>
+
+  <h1>This does not work (no image displayed)</h1>
+  <oops-font-awesome></oops-font-awesome>
+
+  <!-- end <body fontAwesome> -->
+  </body>
+</html>
