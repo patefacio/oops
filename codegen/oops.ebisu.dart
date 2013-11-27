@@ -15,11 +15,14 @@ main() {
     ..examples = [
       example(idFromString('svg_use')),
       example(idFromString('font_awesome')),
+      example(idFromString('failed_import')),
     ]
     ..components = [
       component('oops_svg'),
       component('oops_font_awesome'),
+      component('oops_import'),
     ];
+
 
   oops.generate();
 }

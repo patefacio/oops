@@ -1,3 +1,4 @@
+library oops_font_awesome;
 import 'dart:html';
 import 'package:logging/logging.dart';
 import 'package:polymer/polymer.dart';
@@ -13,6 +14,9 @@ class OopsFontAwesome extends PolymerElement {
   }
 
   // custom <class OopsFontAwesome>
+
+  bool get applyAuthorStyles => true;
+
   // end <class OopsFontAwesome>
 }
 
@@ -20,4 +24,3 @@ class OopsFontAwesome extends PolymerElement {
 
 // custom <oops>
 // end <oops>
-

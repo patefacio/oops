@@ -2,16 +2,23 @@
 /* end <oops top> */
 
 
-[is=oops-svg] {
+oops-svg {
   /* custom <oops-svg> */
   /* end <oops-svg> */
 
 }
 
 
-[is=oops-font-awesome] {
+oops-font-awesome {
   /* custom <oops-font-awesome> */
   /* end <oops-font-awesome> */
+
+}
+
+
+oops-import {
+  /* custom <oops-import> */
+  /* end <oops-import> */
 
 }
 
